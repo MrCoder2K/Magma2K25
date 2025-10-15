@@ -32,13 +32,13 @@ export default function About() {
                         <div className="w-full justify-start items-center gap-8 grid grid-cols-1 lg:grid-cols-2">
                             <img
                                 className="lg:order-1 order-2 lg:mx-0 mx-auto w-[594px] h-[455px] object-cover rounded-[20px] "
-                                src="/bg/Magma-bg-1.jpg"
+                                src="/bg/mba.jpg"
                                 alt="about Us image"
                             />
                             <div className="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex order-1 lg:order-2">
                                 <div className="w-full flex-col justify-start lg:items-start items-center gap-4 flex">
-                                    <h2 className="text-gray-900 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
-                                        MBA
+                                    <h2 className="text-gray-900 text-4xl font-bold font-manrope leading-normal md:text-nowrap lg:text-start text-center">
+                                       Master of Business Administration
                                     </h2>
                                     <p className="text-gray-500 text-base font-normal leading-relaxed text-justify">
                                         AIM offers a 2-year MBA Programme preparing students for a rewarding career in any walk of economic or social activity that calls for application of management. AIM seeks to develop young men and women into managerially competent, ethically sensitive and socially responsible professionals. The course is approved by All India Council for Technical Education (AICTE), Ministry of HRD, Government of India and have been affiliated to the University of Madras.

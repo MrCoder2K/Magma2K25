@@ -54,21 +54,24 @@ export default function Hero() {
         >
           <div>
             <div>
-               {/* <img
+              <img
                   src="/images/aim-logo.png"
                   alt="Asan logo"
-                  className="w-28 h-28 md:w-40 md:h-40 rounded-full object-contain bg-white p-0 py-12 mx-auto"
-                /> */}
+                  className="w-36 h-36 md:w-44 md:h-44 rounded object-contain bg-transaparent p-0 mx-auto py-6"
+                />
               <div className="flex flex-col md:flex-row items-center justify-center text-center gap-6">
-              /
-                <h1 className="text-2xl md:text-5xl font-black tracking-tight mt-4 md:mt-12" style={{ color: "#211832" }}>
-                  Asan Institute of Management
-                  <br />
-                  <p className="text-xl py-4">(A Unit of Asan Memorial College of Arts and Science)</p>
-                </h1>
+                <div className="mt-4 md:mt-0 text-center md:text-center">
+                  <h1 className="text-2xl md:text-5xl font-black tracking-tight text-[#211832]">
+                    Asan Institute of Management
+                  </h1>
+                  <p className="text-xl text-[#211832] mt-2">
+                    (A Unit of Asan Memorial College of Arts and Science)
+                  </p>
+                </div>
               </div>
+
             </div>
-            <div className="text-base md:text-3xl font-black capitalize" style={{ color: "#5C3E94" }}>
+            <div className="text-base md:text-3xl font-black capitalize mt-0" style={{ color: "#5C3E94" }}>
               Invites You to
             </div>
           </div>
