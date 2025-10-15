@@ -482,7 +482,7 @@ export function ProjectIdeasManager() {
           <div className="flex-1 flex items-center justify-center">
             <div className="text-center">
               <h3 className="text-lg font-medium text-foreground mb-2">
-                Select an idea to view details
+                Select an idea to view details Hello Makkalae
               </h3>
               <p className="text-muted-foreground">
                 Choose a category and then select an idea to see its full
