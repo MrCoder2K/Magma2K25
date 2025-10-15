@@ -57,31 +57,31 @@ const ContactUs: React.FC = () => {
                             <div className="group w-fit text-center">
                                 <div className="relative mb-4">
                                     <img
-                                        src="/images/SM.jpg"
+                                        src="/images/PM.jpg"
                                         alt="Antonio image"
                                         className="w-40 h-40 rounded-full mx-auto transition-all duration-500 object-cover border border-solid border-transparent group-hover:border-indigo-600"
                                     />
                                 </div>
                                 <h4 className="text-xl font-semibold text-gray-900 mb-1 capitalize transition-all duration-500 group-hover:text-indigo-600">
-                                    Dr.P. Suganya Devi
+                                    Dr.P. Parameswari
                                 </h4>
-                                <span className="text-gray-500 transition-all duration-500 group-hover:text-gray-900">
+                                <span className="text-gray-500 font-semibold transition-all duration-500 group-hover:text-gray-900">
                                     9566267013
                                 </span>
                             </div>
                             <div className="group w-fit text-center">
                                 <div className="relative mb-4">
                                     <img
-                                        src="https://pagedone.io/asset/uploads/1696238396.png"
+                                        src="/images/SM.jpg"
                                         alt="Patricia image"
                                         className="w-40 h-40 rounded-full mx-auto transition-all duration-500 object-cover border border-solid border-transparent group-hover:border-indigo-600"
                                     />
                                 </div>
                                 <h4 className="text-xl font-semibold text-gray-900 mb-1 capitalize transition-all duration-500 group-hover:text-indigo-600">
-                                    Patricia Angely
+                                    Dr.P. Suganaya Devi 
                                 </h4>
-                                <span className="text-gray-500 transition-all duration-500 group-hover:text-gray-900">
-                                    Co-Founder
+                                <span className="text-gray-500 font-semibold transition-all duration-500 group-hover:text-gray-900">
+                                    9884010104
                                 </span>
                             </div>
 
@@ -90,7 +90,42 @@ const ContactUs: React.FC = () => {
                     <div className="mb-12 pt-16">
                         <h2 className="font-manrope text-2xl lg:text-4xl text-center font-bold text-gray-900 ">Student Coordinators</h2>
                     </div>
-                    <div className="w-full flex justify-center px-4">
+                    <div className="w-full flex justify-center">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 place-items-center max-w-4xl w-full">
+                            <div className="group w-fit text-center">
+                                <div className="relative mb-4">
+                                    <img
+                                        src="/images/M.jpg"
+                                        alt="Antonio image"
+                                        className="w-40 h-40 rounded-full mx-auto transition-all duration-500 object-cover border border-solid border-transparent group-hover:border-indigo-600"
+                                    />
+                                </div>
+                                <h4 className="text-xl font-semibold text-gray-900 mb-1 capitalize transition-all duration-500 group-hover:text-indigo-600">
+                                    Ms.Monisha.K
+                                </h4>
+                                <span className="text-gray-500 font-semibold transition-all duration-500 group-hover:text-gray-900">
+                                    9025820246
+                                </span>
+                            </div>
+                            <div className="group w-fit text-center">
+                                <div className="relative mb-4">
+                                    <img
+                                        src="/images/K.jpg"
+                                        alt="Patricia image"
+                                        className="w-40 h-40 rounded-full mx-auto transition-all duration-500 object-cover border border-solid border-transparent group-hover:border-indigo-600"
+                                    />
+                                </div>
+                                <h4 className="text-xl font-semibold text-gray-900 mb-1 capitalize transition-all duration-500 group-hover:text-indigo-600">
+                                    Ms.Keerthana.K 
+                                </h4>
+                                <span className="text-gray-500 font-semibold transition-all duration-500 group-hover:text-gray-900">
+                                    7305853955
+                                </span>
+                            </div>
+
+                        </div>
+                    </div>
+                    {/* <div className="w-full flex justify-center px-4">
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 max-w-7xl w-full place-items-center">
                             <div className="group w-fit text-center">
                                 <div className="relative mb-4">
@@ -145,7 +180,7 @@ const ContactUs: React.FC = () => {
                                 <span className="text-gray-500 transition-all duration-500 group-hover:text-gray-900">Product Manager</span>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
             </section >

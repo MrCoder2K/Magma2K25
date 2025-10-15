@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function Events() {
     return (
@@ -45,7 +46,11 @@ export default function Events() {
                             </div>
                             <button
                                 className="sm:w-fit w-full px-3.5 py-2 bg-indigo-600 hover:bg-indigo-800 transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex">
-                                <span className="px-1.5 text-white text-base font-semibold leading-6">View Rules</span>
+                                <span className="px-1.5 text-white text-base font-semibold leading-6">
+                                     <Link href="https://drive.google.com/file/d/1P-GTZFMusPgiWMk04H0sGEr4JtRrFO5M/view?usp=drive_link" target="_blank"
+                                        rel="noopener noreferrer">View Rules
+                                    </Link>
+                                </span>
                             </button>
                         </div>
                     </div>
@@ -62,7 +67,11 @@ export default function Events() {
                             </div>
                             <button
                                 className="sm:w-fit w-full px-3.5 py-2 bg-indigo-600 hover:bg-indigo-800 transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex">
-                                <span className="px-1.5 text-white text-base font-semibold leading-6">View Rules</span>
+                                <span className="px-1.5 text-white text-base font-semibold leading-6">
+                                     <Link href="https://drive.google.com/file/d/1P-GTZFMusPgiWMk04H0sGEr4JtRrFO5M/view?usp=drive_link" target="_blank"
+                                        rel="noopener noreferrer">View Rules
+                                    </Link>
+                                </span>
                             </button>
                         </div>
                         <div className="w-full justify-center items-start gap-6 grid sm:grid-cols-2 grid-cols-1 lg:order-last order-first">
@@ -125,7 +134,10 @@ export default function Events() {
                             </div>
                             <button
                                 className="sm:w-fit w-full px-3.5 py-2 bg-indigo-600 hover:bg-indigo-800 transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex">
-                                <span className="px-1.5 text-white text-base font-semibold leading-6">View Rules</span>
+                                <span className="px-1.5 text-white text-base font-semibold leading-6">
+                                    <Link href="https://drive.google.com/file/d/1P-GTZFMusPgiWMk04H0sGEr4JtRrFO5M/view?usp=drive_link" target="_blank"
+                                        rel="noopener noreferrer">View Rules
+                                    </Link></span>
                             </button>
                         </div>
                     </div>
@@ -168,7 +180,11 @@ export default function Events() {
                                 </div>
                             </div>
                             <button className="sm:w-fit w-full px-3.5 py-2 bg-indigo-600 hover:bg-indigo-800 transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex">
-                                <span className="px-1.5 text-white text-base font-semibold leading-6">View Rules</span>
+                                <span className="px-1.5 text-white text-base font-semibold leading-6">
+                                     <Link href="https://drive.google.com/file/d/1P-GTZFMusPgiWMk04H0sGEr4JtRrFO5M/view?usp=drive_link" target="_blank"
+                                        rel="noopener noreferrer">View Rules
+                                    </Link>
+                                </span>
                             </button>
                         </div>
 
@@ -233,7 +249,11 @@ export default function Events() {
                             </div>
                             <button
                                 className="sm:w-fit w-full px-3.5 py-2 bg-indigo-600 hover:bg-indigo-800 transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex">
-                                <span className="px-1.5 text-white text-base font-semibold leading-6">View Rules</span>
+                                <span className="px-1.5 text-white text-base font-semibold leading-6">
+                                     <Link href="https://drive.google.com/file/d/1P-GTZFMusPgiWMk04H0sGEr4JtRrFO5M/view?usp=drive_link" target="_blank"
+                                        rel="noopener noreferrer">View Rules
+                                    </Link>
+                                </span>
                             </button>
                         </div>
                     </div>

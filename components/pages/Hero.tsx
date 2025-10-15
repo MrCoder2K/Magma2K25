@@ -55,10 +55,10 @@ export default function Hero() {
           <div>
             <div>
               <img
-                  src="/images/aim-logo.png"
-                  alt="Asan logo"
-                  className="w-36 h-36 md:w-44 md:h-44 rounded object-contain bg-transaparent p-0 mx-auto py-6"
-                />
+                src="/images/aim-logo.png"
+                alt="Asan logo"
+                className="w-36 h-36 md:w-44 md:h-44 rounded object-contain bg-transaparent p-0 mx-auto py-6"
+              />
               <div className="flex flex-col md:flex-row items-center justify-center text-center gap-6">
                 <div className="mt-4 md:mt-0 text-center md:text-center">
                   <h1 className="text-2xl md:text-5xl font-black tracking-tight text-[#211832]">
@@ -118,7 +118,12 @@ export default function Hero() {
                 Register For MAGMA'25
               </Link>
             </Button>
-            <Button className="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-bold rounded-lg text-lg px-5 py-2.5 text-center me-2 mb-2">Rule Book</Button>
+            
+            <Button className="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-bold rounded-lg text-lg px-5 py-2.5 text-center me-2 mb-2">
+              <Link href="https://drive.google.com/file/d/1P-GTZFMusPgiWMk04H0sGEr4JtRrFO5M/view?usp=drive_link" target="_blank"
+                rel="noopener noreferrer">
+                Rule Book</Link></Button>
+
             <Button asChild variant="default" size="default" className="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-bold rounded-lg text-lg px-5 py-2.5 text-center me-2 mb-2">
               <Link href="#events" className="">
                 View Events
@@ -126,7 +131,7 @@ export default function Hero() {
             </Button>
           </div>
         </motion.div>
-      </div>
-    </div>
+      </div >
+    </div >
   );
 }

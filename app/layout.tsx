@@ -5,7 +5,9 @@ import { GeistMono } from "geist/font/mono";
 import { Poppins } from "next/font/google";
 import SiteHeader from "../components/site-header"; 
 import { Suspense } from "react";
+import Footer from "@/components/pages/site-footer";
 import "./globals.css";
+import FloatingSocials from "@/components/pages/FloatingSocials";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -30,6 +32,8 @@ export default function RootLayout({
         <Suspense fallback={<div>Loading...</div>}>
           <SiteHeader />
           <main className="">{children}</main>
+           <Footer />
+           <FloatingSocials />
         </Suspense>
       </body>
     </html>

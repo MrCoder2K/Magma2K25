@@ -34,6 +34,8 @@ export default function ContactForm() {
       } else if (res.status === 200) {
         setLoading(false);
         toast.success("Message Sent Successfully");
+
+        
       } else {
         setLoading(false);
         toast.error("Something went wrong");
