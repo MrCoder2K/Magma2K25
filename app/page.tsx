@@ -2,6 +2,7 @@ import About from "@/components/pages/About";
 import Hero from "@/components/pages/Hero";
 import WhyAttend from "@/components/pages/WhyAttend";
 import Events from "@/components/pages/Events";
+import ContactUs from "@/components/pages/Contact";
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
       </section>
       <hr />
       <section id="contact" className="pt-16">
-        Contact
+        <ContactUs/>
       </section>
     </div>
   )
