@@ -54,18 +54,21 @@ export default function Hero() {
         >
           <div>
             <div>
-              <div className="flex flex-col md:flex-row items-center justify-center text-center gap-6 mb-2">
-                <img
+               {/* <img
                   src="/images/aim-logo.png"
                   alt="Asan logo"
-                  className="w-28 h-28 md:w-32 md:h-32 rounded-full object-contain bg-black p-2 border border-transparent transition-all duration-500"
-                />
-                <h1 className="text-2xl md:text-4xl font-black tracking-tight mt-4 md:mt-0">
+                  className="w-28 h-28 md:w-40 md:h-40 rounded-full object-contain bg-white p-0 py-12 mx-auto"
+                /> */}
+              <div className="flex flex-col md:flex-row items-center justify-center text-center gap-6">
+              /
+                <h1 className="text-2xl md:text-5xl font-black tracking-tight mt-4 md:mt-12" style={{ color: "#211832" }}>
                   Asan Institute of Management
+                  <br />
+                  <p className="text-xl py-4">(A Unit of Asan Memorial College of Arts and Science)</p>
                 </h1>
               </div>
             </div>
-            <div className="text-white text-base md:text-3xl font-black capitalize">
+            <div className="text-base md:text-3xl font-black capitalize" style={{ color: "#5C3E94" }}>
               Invites You to
             </div>
           </div>
@@ -87,15 +90,14 @@ export default function Hero() {
             />
           </p>
           <h1 className="text-lg md:text-xl font-medium tracking-tight">
-            {/* MBA Departmnent Presents */}
-            {/* <br /> */}
-            <span className="text-white text-sm text-nowrap md:text-2xl font-bold">Intercollegiate Management Fest Inspire to Innovate</span>
+            <span className="text-white text-sm text-nowrap md:text-2xl font-bold" style={{ color: "#5C3E94" }} >Intercollegiate Management Fest</span>
           </h1>
+          <span className="text-white text-sm text-nowrap md:text-2xl font-bold" style={{ color: "#5C3E94" }} >Inspire to Innovate</span>
           <p className="text-red-600 text-sm text-nowrap md:text-2xl font-bold my-4">Win Excting Trophies and Cash Rewards</p>
-          <div className="mt-6 flex flex-col md:flex-row justify-center items-center gap-6 text-base md:text-lg font-medium">
+          <div className="mt-6 flex flex-col md:flex-row justify-center items-center gap-6 text-base md:text-lg font-medium text-black">
             <div className="flex items-center gap-2">
               <Calendar />
-              <span>16<sup>th</sup> October, 2025</span>
+              <span>24<sup>th</sup> October, 2025</span>
             </div>
             <div className="flex items-center gap-2">
               <Clock />
@@ -103,7 +105,7 @@ export default function Hero() {
             </div>
             <div className="flex items-center gap-2">
               <MapPin />
-              <span>MBA Campus</span>
+              <span>AIM</span>
             </div>
           </div>
           <div className="mt-8 flex flex-col md:flex-row justify-center items-center gap-4">
