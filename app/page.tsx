@@ -1,5 +1,7 @@
+import About from "@/components/pages/About";
 import Hero from "@/components/pages/Hero";
 import WhyAttend from "@/components/pages/WhyAttend";
+import Events from "@/components/pages/Events";
 
 export default function Home() {
   return (
@@ -12,11 +14,11 @@ export default function Home() {
       </section>
       <hr />
       <section id="about" className="py-16">
-        About Us
+        <About/>
       </section>
       <hr />
       <section id="events" className="py-16">
-        Events
+        <Events/>
       </section>
       <hr />
       <section id="contact" className="pt-16">

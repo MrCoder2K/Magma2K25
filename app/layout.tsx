@@ -15,7 +15,7 @@ const poppins = Poppins({
 
 
 export const metadata: Metadata = {
-  title: "Idea Manager",
+  title: "Magma 2K25",
   description: "Create and Manage your Ideas",
 };
 
