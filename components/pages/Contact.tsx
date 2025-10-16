@@ -36,7 +36,7 @@ const ContactUs: React.FC = () => {
             lastName: '',
             email: '',
             phone: '',
-            subject: '', 
+            subject: '',
             message: ''
         });
         // Here you would typically send the form data to your backend
@@ -78,7 +78,7 @@ const ContactUs: React.FC = () => {
                                     />
                                 </div>
                                 <h4 className="text-xl font-semibold text-gray-900 mb-1 capitalize transition-all duration-500 group-hover:text-indigo-600">
-                                    Dr.P. Suganaya Devi 
+                                    Dr.P. Suganaya Devi
                                 </h4>
                                 <span className="text-gray-500 font-semibold transition-all duration-500 group-hover:text-gray-900">
                                     9884010104
@@ -116,7 +116,7 @@ const ContactUs: React.FC = () => {
                                     />
                                 </div>
                                 <h4 className="text-xl font-semibold text-gray-900 mb-1 capitalize transition-all duration-500 group-hover:text-indigo-600">
-                                    Ms.Keerthana.K 
+                                    Ms.Keerthana.K
                                 </h4>
                                 <span className="text-gray-500 font-semibold transition-all duration-500 group-hover:text-gray-900">
                                     7305853955
@@ -186,9 +186,9 @@ const ContactUs: React.FC = () => {
             </section >
             <section>
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-12 lg:gap-x-24 items-start">
-                        <div className="flex items-center lg:mb-0 mb-10">
-                            <ContactForm/>
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-8 lg:gap-x-24 items-start">
+                        <div className="flex items-center lg:mb-0">
+                            <ContactForm />
                         </div>
                         <div
                             className="lg:max-w-xl w-full h-[600px] flex items-center justify-center">

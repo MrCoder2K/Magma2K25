@@ -6,6 +6,7 @@ import { Poppins } from "next/font/google";
 import SiteHeader from "../components/site-header"; 
 import { Suspense } from "react";
 import Footer from "@/components/pages/site-footer";
+import { Toaster } from "react-hot-toast";
 import "./globals.css";
 import FloatingSocials from "@/components/pages/FloatingSocials";
 
@@ -31,6 +32,7 @@ export default function RootLayout({
       <body className={poppins.className}>
         <Suspense fallback={<div>Loading...</div>}>
           <SiteHeader />
+          <Toaster position="top-center" reverseOrder={false} />
           <main className="">{children}</main>
            <Footer />
            <FloatingSocials />

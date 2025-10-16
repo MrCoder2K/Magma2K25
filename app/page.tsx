@@ -14,7 +14,7 @@ export default function Home() {
         <WhyAttend/>
       </section>
       <hr />
-      <section id="about" className="py-16">
+      <section id="about" className="py-16 py">
         <About/>
       </section>
       <hr />

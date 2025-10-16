@@ -2,7 +2,10 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { ArrowRight, Leaf, Globe, Award, Calendar, Clock, MapPin } from "lucide-react";
+import { Calendar, Clock, MapPin } from "lucide-react";
+import { SiGooglemaps } from "react-icons/si";
+import { FaClock } from "react-icons/fa";
+import { HiCalendarDateRange } from "react-icons/hi2";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
@@ -61,17 +64,17 @@ export default function Hero() {
               />
               <div className="flex flex-col md:flex-row items-center justify-center text-center gap-6">
                 <div className="mt-4 md:mt-0 text-center md:text-center">
-                  <h1 className="text-2xl md:text-5xl font-black tracking-tight text-[#211832]">
+                  <h1 className="text-2xl whitespace-nowrap px-4 text-nowrap md:text-5xl font-black tracking-tight text-[#211832]">
                     Asan Institute of Management
                   </h1>
-                  <p className="text-xl text-[#211832] mt-2">
+                  <p className="text-base font-semibold md:text-xl text-[#211832] mt-2">
                     (A Unit of Asan Memorial College of Arts and Science)
                   </p>
                 </div>
               </div>
 
             </div>
-            <div className="text-base md:text-3xl font-black capitalize mt-0" style={{ color: "#5C3E94" }}>
+            <div className="text-lg md:text-3xl font-black capitalize mt-0" style={{ color: "#5C3E94" }}>
               Invites You to
             </div>
           </div>
@@ -93,21 +96,21 @@ export default function Hero() {
             />
           </p>
           <h1 className="text-lg md:text-xl font-medium tracking-tight">
-            <span className="text-white text-sm text-nowrap md:text-2xl font-bold" style={{ color: "#5C3E94" }} >Intercollegiate Management Fest</span>
+            <span className="text-white text-lg  text-nowrap md:text-2xl font-bold" style={{ color: "#5C3E94" }} >Intercollegiate Management Fest</span>
           </h1>
-          <span className="text-white text-sm text-nowrap md:text-2xl font-bold" style={{ color: "#5C3E94" }} >Inspire to Innovate</span>
-          <p className="text-red-600 text-sm text-nowrap md:text-2xl font-bold my-4">Win Excting Trophies and Cash Rewards</p>
-          <div className="mt-6 flex flex-col md:flex-row justify-center items-center gap-6 text-base md:text-lg font-medium text-black">
+          <span className="text-white text-lg text-nowrap md:text-2xl font-bold" style={{ color: "#5C3E94" }} >Inspire to Innovate</span>
+          <p className="text-red-600 text-base text-nowrap md:text-2xl font-bold my-4">Win Excting Trophies and Cash Rewards</p>
+          <div className="mt-6 flex flex-col md:flex-row justify-center items-center gap-6 text-base md:text-lg font-black text-black">
             <div className="flex items-center gap-2">
-              <Calendar />
+              <HiCalendarDateRange size={22} />
               <span>24<sup>th</sup> October, 2025</span>
             </div>
             <div className="flex items-center gap-2">
-              <Clock />
+             <FaClock size={22}/>
               <span>9:00 AM – 5:00 PM</span>
             </div>
             <div className="flex items-center gap-2">
-              <MapPin />
+             <SiGooglemaps size={22} />
               <span>AIM</span>
             </div>
           </div>

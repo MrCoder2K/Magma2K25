@@ -12,7 +12,7 @@ export default function FloatingSocials() {
       {isOpen && (
         <div className="flex flex-col items-center space-y-3 mb-2 transition-opacity duration-300">
           <a
-            href="https://wa.me/your-number"
+            href="https://chat.whatsapp.com/L3TIj9jQLGFK0MBWh4KeMh?mode=wwt"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 flex items-center justify-center rounded-full bg-green-500 text-white hover:scale-110 transition"
@@ -20,7 +20,7 @@ export default function FloatingSocials() {
             <FaWhatsapp size={24} />
           </a>
           <a
-            href="https://instagram.com/yourprofile"
+            href="https://www.instagram.com/asan.institute.of.management?igsh=MTV4YzJ1ZTJyZW1lMA%3D%3D&utm_source=qr"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 flex items-center justify-center rounded-full bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 text-white hover:scale-110 transition"

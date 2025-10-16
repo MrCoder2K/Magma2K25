@@ -24,8 +24,8 @@ export default function ContactForm() {
   const router = useRouter();
   async function onSubmit(data: UserProps) {
     setLoading(true);
-    
- 
+
+
     try {
       const res = await createUser(data);
       if (res.status === 409) {
@@ -34,8 +34,9 @@ export default function ContactForm() {
       } else if (res.status === 200) {
         setLoading(false);
         toast.success("Message Sent Successfully");
+        reset();
 
-        
+
       } else {
         setLoading(false);
         toast.error("Something went wrong");
