@@ -78,7 +78,7 @@ const ContactUs: React.FC = () => {
                                     />
                                 </div>
                                 <h4 className="text-xl font-semibold text-gray-900 mb-1 capitalize transition-all duration-500 group-hover:text-indigo-600">
-                                    Dr.P. Suganaya Devi
+                                    Dr.P. Suganya Devi
                                 </h4>
                                 <span className="text-gray-500 font-semibold transition-all duration-500 group-hover:text-gray-900">
                                     9884010104
