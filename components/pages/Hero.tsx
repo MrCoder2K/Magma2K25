@@ -123,7 +123,7 @@ export default function Hero() {
             </Button>
             
             <Button className="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-bold rounded-lg text-lg px-5 py-2.5 text-center me-2 mb-2">
-              <Link href="https://drive.google.com/file/d/1P-GTZFMusPgiWMk04H0sGEr4JtRrFO5M/view?usp=drive_link" target="_blank"
+              <Link href="https://drive.google.com/file/d/1iHjRIB8hl_BMe-mzLF3EwJG_cjlN_1Kg/view?usp=sharing" target="_blank"
                 rel="noopener noreferrer">
                 Rule Book</Link></Button>
 

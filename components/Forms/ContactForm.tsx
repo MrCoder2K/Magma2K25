@@ -9,7 +9,7 @@ import toast from "react-hot-toast";
 import { useRouter } from "next/navigation";
 import TextInput from "../FormInputs/TextInput";
 import SubmitButton from "../FormInputs/SubmitButton";
-import { createUser } from "@/actions/users";
+import { createUser } from "@/lib/createUser";
 import TextArea from "../FormInputs/TextAreaInput";
 
 export default function ContactForm() {
